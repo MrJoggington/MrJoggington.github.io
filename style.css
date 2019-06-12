@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: grey;
+    text-align: center;
+}
+nav{
+    background-color: yellow;
+}
+li{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+section{
+    background-color: grey;
+
+}
+article{
+    background-color: lightgreen;
+}
+.heading{
+    background-color: aquamarine;
+}
+aside{
+    background-color: lightyellow;
+}
+footer{
+    background-color: yellow;
+    text-align:center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
