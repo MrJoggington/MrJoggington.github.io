@@ -12,7 +12,7 @@
     justify-content: space-around;
     
 }
-a{
+.main{
     line-height: 60px;
     text-decoration:none;
     border-right: solid 1px;
@@ -47,9 +47,26 @@ h2{
 }
 
 .container{
-    background:white;
+    background:#ffffff;
+    width: 960px;
 
 }
+
+.h1{
+    width: 30%;
+    background-image: url(farmer.jpg);
+}
+.href{
+background-image: url(farmer.jpg)
+padding:10px;
+}
+.bighref{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+
+}
+
 article{
     padding:10px;
     font-size: 20px;
@@ -81,3 +98,13 @@ footer {
     text-align: center;
     line-height: 40px;
   }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+  
+ .card {
+     flex: 0 1 25%;
+ }
