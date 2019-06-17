@@ -27,29 +27,38 @@
     <div class="bck">
             <section class="contain2">
                     <div class="container">
-                        <h2>About Me</h2>
+                        <h2>Contact Me</h2>
                         <hr>
-                    </div>
-                                    <div class="article">
-                                    <section>
-                                        <img src="images/IMG_1308.JPG" alt="its a me" height="200px" width="300px">
-                                    </section>
-                                    <article>
-                                    My name is Ghett Lee, and I am an anthropology student of three years. I plan to finish
-                                    my B.A. by 2020, and do amazing things with the power of qualtitative research. There is no
-                                    shortage of questions to why I chose this path, but there is no shortage of answers as well.
-                                    <br>
-                                    <br>
-                                    The profession itself may be found lacking in careers that reach economic solitude, but what
-                                    it lacks, it makes up for with its broad analytical values; it's multiple angles and open minds.
-                                    <br>
-                                    <br>
-                                    Anthropology has stood the test of time, and has constantly evolved as humans have for thousands
-                                    years, the future is merely a mystery, where to others it is a means of an end. I am proud of my
-                                    domain, and I wouldn't have it any other way.  
-                                    </article>
-                                    </div>
-                                    </section>
+                    <form action="process.php" method="POST">
+                            <div>
+                                <label for="first name">
+                                    Name
+                                </label>
+                                <br>
+                                <input class="text-box" type="text" name="first-name" placeholder="Enter Name">
+                            </div>
+                            <br>
+
+                            <div>    
+                                <label for="Email">Email</label>
+                                <br>
+                                <input class="text-box" type="email" name="email" placeholder="Enter Email">
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <label for="message">Message</label>
+                                <br>
+                                <textarea class="text-box" name="message" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="button">
+                                    <input type="submit" name="submit" value="submit"
+                                    style="background-color: #4aaaa5; font-family: Arial; line-height: 30px; color: #ffffff; width: 15%; "
+                                    >
+                             </div>
+                            </form>
+                        </div>
+                        </section>
                 </div>
                 
             </div>

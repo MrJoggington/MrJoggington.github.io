@@ -1,5 +1,7 @@
-/* body{
-    /* width:960p<h2>About me</h2>x; */
+header h1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 .contain{
     margin:auto;
@@ -57,7 +59,7 @@ h2{
     background-image: url(farmer.jpg);
 }
 .href{
-background-image: url(farmer.jpg)
+background-image: url(farmer.jpg);
 padding:10px;
 }
 .bighref{
@@ -107,4 +109,13 @@ footer {
   
  .card {
      flex: 0 1 25%;
+ }
+ form{
+padding: 10px;
+ }
+ .text-box{
+     width:900px;
+ }
+ .button{
+    padding: 5px 0px;
  }
