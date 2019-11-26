@@ -7,7 +7,7 @@
 .pro{
 text-align: center;
 }
-#flexnav{
+#projects{
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
